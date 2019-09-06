@@ -432,141 +432,16 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 600px) {
+    body {
+        background: url(images/portfolio-background2.jpg) no-repeat center fixed;
+        background-size: cover;
+    }
     .menu-toggler {
         top: 2rem;
         right: 2rem;
     }
     .landing-text h1 {
         font-size: 5rem;
-    }
-    .landing-text h6 {
-        font-size: 1.5rem;
-        font-weight: 600;
-    }
-    .nav-link {
-        font-size: 3.5rem;
-    }
-    .top-nav {
-        position: absolute;
-    }
-    .about .container {
-        flex-direction: column;
-    }
-    .profile-img {
-        margin: 0 0 7rem 0;
-    }
-    .portfolio-item {
-        flex-direction: column;
-    }
-    .portfolio-img {
-        margin: 0 0 2rem 0;
-        order: 1;
-    }
-    .portfolio-discription {
-        margin: 0;
-        order: 2;
-    }
-    form {
-        width: 100%;
-    }
-    .up {
-        right: 2rem;
-    }
-}
-
-@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-    .menu-toggler {
-        top: 2rem;
-        right: 2rem;
-    }
-    .landing-text h1 {
-        font-size: 5rem;
-    }
-    .landing-text h6 {
-        font-size: 1.5rem;
-        font-weight: 600;
-    }
-    .nav-link {
-        font-size: 3.5rem;
-    }
-    .top-nav {
-        position: absolute;
-    }
-    .about .container {
-        flex-direction: column;
-    }
-    .profile-img {
-        margin: 0 0 7rem 0;
-    }
-    .portfolio-item {
-        flex-direction: column;
-    }
-    .portfolio-img {
-        margin: 0 0 2rem 0;
-        order: 1;
-    }
-    .portfolio-discription {
-        margin: 0;
-        order: 2;
-    }
-    form {
-        width: 100%;
-    }
-    .up {
-        right: 2rem;
-    }
-}
-
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-    .menu-toggler {
-        top: 2rem;
-        right: 2rem;
-    }
-    .landing-text h1 {
-        font-size: 7rem;
-    }
-    .landing-text h6 {
-        font-size: 1.5rem;
-        font-weight: 600;
-    }
-    .nav-link {
-        font-size: 3.5rem;
-    }
-    .top-nav {
-        position: absolute;
-    }
-    .about .container {
-        flex-direction: column;
-    }
-    .profile-img {
-        margin: 0 0 7rem 0;
-    }
-    .portfolio-item {
-        flex-direction: column;
-    }
-    .portfolio-img {
-        margin: 0 0 2rem 0;
-        order: 1;
-    }
-    .portfolio-discription {
-        margin: 0;
-        order: 2;
-    }
-    form {
-        width: 100%;
-    }
-    .up {
-        right: 2rem;
-    }
-}
-
-@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
-    .menu-toggler {
-        top: 2rem;
-        right: 2rem;
-    }
-    .landing-text h1 {
-        font-size: 7rem;
     }
     .landing-text h6 {
         font-size: 1.5rem;
