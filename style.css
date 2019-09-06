@@ -396,4 +396,16 @@ li{
     .landing-text h6{
         font-size: 2rem;
     }
+    
+    .nav-list{
+        flex-direction: column;
+    }
+
+    li{
+        margin: 2rem 0;
+    }
+
+    .nav-link{
+        font-size: 5.5rem;
+    }
  }
