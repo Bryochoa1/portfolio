@@ -13,50 +13,54 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
 
 </head>
 
 <body>
 
-    <header class="menu-toggler">
+    <header>
         <!-- styled menu by adding classes -->
-        <div class="bar half start"></div>
-        <div class="bar"></div>
-        <div class="bar half end"></div>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
         <nav class="top-nav">
             <ul class="nav-list">
                 <li>
                     <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li>
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </li>
             </ul>
         </nav>
-
-        <!-- header -->
         <div class="landing-text">
             <h1>Bryan Ochoa-Flores</h1>
-            <h4>Full Stack Web Dev Student</h4>
+            <h6>Full Stack Web Developer Student</h6>
         </div>
+
+        <!-- header -->
 
 
     </header>
+
     <!-- about -->
     <section class="about" id="about">
         <div class="container">
             <div class="profile-img">
-                <img src="images/39305846.png" alt="profile.">
+                <img src="images/web-development.jpg" alt="profile.">
             </div>
             <div class="about-details">
                 <div class="about-heading">
                     <h1>About</h1>
-                    <h4>Me</h4>
+                    <h6>Me</h6>
                 </div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -65,30 +69,32 @@
                     Sint veritatis quas soluta, officiis eos possimus quidem esse eligendi animi dicta!
                     Sint veritatis quas soluta, officiis eos possimus quidem esse eligendi animi dicta!
                 </p>
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
-            <!-- icons for social media -->
-            <div class="social-media">
-                <ul class="nav-list">
-                    <li>
-                        <a href="#" class="icon-link">
-                            <i class="fab fa-twitter-square"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon-link">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon-link">
-                            <i class="fab fa-github-square"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </section>
+
+    <!-- icons for social media -->
+
 
     <!-- portfolio section! -->
 
@@ -96,64 +102,68 @@
         <div class="container">
             <div class="section-heading">
                 <h1>Portfolio</h1>
-                <h5>View some of my work!</h5>
+                <h6>View some of my work!</h6>
             </div>
             <div class="portfolio-item">
-                <div class="portfolio img">
-                    <img src="images/psychic-reading-crystal.jpg" alt="crystals">
+                <div class="portfolio-img has-margin-right">
+                    <img src="/images/psychic-reading-crystal.jpg" alt="crystals">
                 </div>
                 <div class="portfolio-discription">
                     <h6>JavaScript</h6>
                     <h1>Psychic Game</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum explicabo, suscipit cum placeat porro,
-                        eos facere voluptatibus. Labore eligendi velit numquam fuga aut impedit eos, laboriosam, obcaecati similique, est accusamus?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum explicabo, suscipit cum placeat
+                        porro,
+                        eos facere voluptatibus. Labore eligendi velit numquam fuga aut impedit eos, laboriosam,
+                        obcaecati similique, est accusamus?
                     </p>
                     <a href="https://bryochoa1.github.io/unit-4crystal-game/" class="cta">View Game</a>
                 </div>
             </div>
             <div class="portfolio-item">
-                    <div class="portfolio-discription">
-                            <h6>jquery</h6>
-                            <h1>Crystal Collector Game</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum explicabo, suscipit cum placeat porro,
-                                eos facere voluptatibus. Labore eligendi velit numquam fuga aut impedit eos, laboriosam, obcaecati similique, est accusamus?
-                            </p>
-                            <a href="https://bryochoa1.github.io/unit-4crystal-game/" class="cta">View Game</a>
-                        </div>
-                    <div class="portfolio img">
-                        <img src="images/blue_crystals.jpg" alt="crystals">
-                    </div>
+                <div class="portfolio-discription has-margin-right">
+                    <h6>jquery</h6>
+                    <h1>Crystal Collector Game</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum explicabo, suscipit cum placeat
+                        porro,
+                        eos facere voluptatibus. Labore eligendi velit numquam fuga aut impedit eos, laboriosam,
+                        obcaecati similique, est accusamus?
+                    </p>
+                    <a href="https://bryochoa1.github.io/unit-4crystal-game/" class="cta">View Game</a>
                 </div>
+                <div class="portfolio-img has-margin-right">
+                    <img src="images/blue_crystals.jpg" alt="crystals">
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="contact" id="contact">
-            <div class="container">
-                <div class="section-heading">
-                    <h1>Contact</h1>
-                    <h5>Let's work together!</h5>
-                </div>
-                <form action="">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name ..." required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email ..." required>
-                    <label for="subject">Subject:</label>
-                    <textarea name="subject" id="subject" cols="30" rows="10"></textarea>
-                    <input type="submit" value="submit">
-                </form>
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Let's work together!</h6>
             </div>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name ..." required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email ..." required>
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject" cols="30" rows="10"></textarea>
+                <input type="submit" value="submit">
+            </form>
+        </div>
     </section>
 
     <!-- footer -->
 
     <footer class="copyright">
         <div class="up" id="up">
-                <i class="fas fa-lightbulb-on"></i>
-                <p>&copy; 2019 Bryan Ochoa-Flores</p>
+            <i class="fas fa-chevron-up"></i>
         </div>
+        <p>&copy; Bryan Ochoa-Flores</p>
     </footer>
 
     <!-- scripts -->
