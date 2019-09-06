@@ -417,6 +417,7 @@ input[type="submit"]:hover {
     }
     .about-details .nav-list {
         flex-direction: initial;
+        font-size: 4rem;
     }
     .about-details li {
         margin: 0 2rem;
