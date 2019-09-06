@@ -34,7 +34,7 @@ p{
 
 img{
     width: 100%;
-}
+} 
 
 
 /* reusable */
@@ -290,6 +290,10 @@ li{
 
  .portfolio-discription .cta:hover{
      color: rgb(56, 56, 56);
+ }
+
+ .portfolio-img{
+    width: 105rem;
  }
 
  /* contact */
